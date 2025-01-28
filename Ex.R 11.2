@@ -1,0 +1,7 @@
+arq = open('saida_er_11.2.txt', 'w')
+A = float(input('Digite um real: '))
+while A != 0:
+    arq.write(f'{A:.3f}\n')
+    A = float(input('Digite um real: '))
+arq.close()
+print('Fim do Programa')
