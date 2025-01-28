@@ -1,0 +1,7 @@
+arq = open ('saida er 11.1.txt', 'w')
+A = int(input('Digite uminteiro: '))
+while A != 0:
+    arq.write(f'{A}\n')
+    A = int(input('Digite um inteiro: '))
+arq.close()
+print ('Fim do Programa')
